@@ -3,9 +3,9 @@
   "version": "1.1.4",
   "license": "MIT",
   "scripts": {
-    "dev": "bun --bun next dev",
-    "build": "bun --bun next build",
-    "start": "bunx serve out",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "serve out",
     "lint": "biome check",
     "format": "biome format --write"
   },
